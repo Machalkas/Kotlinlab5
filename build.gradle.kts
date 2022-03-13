@@ -15,6 +15,10 @@ repositories {
 dependencies {
     testImplementation(kotlin("test"))
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0")
+    implementation("io.prometheus:simpleclient:0.15.0")
+    implementation("io.prometheus:simpleclient_hotspot:0.15.0")
+    implementation("io.prometheus:simpleclient_httpserver:0.15.0")
+    implementation("io.prometheus:simpleclient_pushgateway:0.15.0")
 }
 
 tasks.test {
